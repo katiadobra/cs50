@@ -1,0 +1,28 @@
+1. check if arguments are correct:
+    if more than 1 argument -> false
+    if not a number -> false
+    if it's <= 0 -> false
+    so - print the message "Usage: ./caesar key"
+2. convert argument to a digit (atoi => convert a string into a number)
+3. prompt a text from user
+4. check the text
+5. iterate over each character of the text
+    if it's a letter from 'A' to 'Z'
+    if it's from 'a' to 'z'
+    if it's a digit or not an alphabetic - leave it unchanged
+    (
+        isalpha
+        is
+    )
+
+    5.1 convert character to a number (for example: 'H' = 72)
+6. change every character (exept digits) with user's key (72 + 1)
+7. save this text in a variable
+8. return text - output "ciphertext:"
+9. return empty string - output "\n"
+
+Formula for converting text
+Ci = (Pi + k) % 26
+i-th character of ciphertext
+
+convert ASCII to alpha index
